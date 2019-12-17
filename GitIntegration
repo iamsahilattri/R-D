@@ -1,0 +1,11 @@
+ Step 1 - https://git-scm.com/download
+
+ Step 2 - Android Studio 
+
+ File> Settings > Version Control > git > Path to git - Exe file where it has been install e.g(C:\Program Files\Git\bin\git.exe) 
+
+ Test > Sucess
+
+ Step 3 > Settings > Version Control > github > Login
+
+ Step 4 > VCS  Import into control version > Share Project on Github - Intial Commit  
