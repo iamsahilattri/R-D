@@ -1,0 +1,31 @@
+<--Install Node.js-->
+https://nodejs.org/en/
+node --v (To check Node version) 
+
+<--Install Native Script-->
+npm install -g nativescript
+
+<--Install Visual Studio-->
+https://code.visualstudio.com/docs/?dv=win
+
+<-- Check Installation -->
+tns doctor
+
+
+<--To Create Project in Android -->
+1. tns create NativeDemo
+ Choose type TypeScript etc
+
+<--Project Path-->
+2.cd NativeScriptProjects
+
+<--Go To Project Path-->
+2. cd ProjectName
+
+<--To Run Project in Visual Studio-->
+3. code .
+
+<--To Run Project in Android -->
+4. tns run android -- to run in emulator 
+   tns devices -- to get connected devices 
+   tns preview -- to preview app on playground 
