@@ -1,6 +1,6 @@
 https://medium.com/androiddevelopers/getting-started-with-c-and-android-native-activities-2213b402ffff
 
-
+New >Folder - JNI Folder
 Step 1--> 
 we need to make a CMakeLists.txt to tell Android how to build our C++ project. 
 Right click on your app in the project view, and create a new file:
