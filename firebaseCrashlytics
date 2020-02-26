@@ -1,0 +1,20 @@
+      // Application Class
+      FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true);
+      
+      //Menifest Optional
+              <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+            
+            Project Gradle
+        // Add the Crashlytics Gradle plugin.
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.0.0-beta02'
+        App Gradle
+        // Apply the Crashlytics Gradle plugin
+        apply plugin: 'com.google.firebase.crashlytics'
+        
+    // Recommended: Add the Firebase SDK for Google Analytics.
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+    // Add the Firebase SDK for Crashlytics.
+    implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta01'
